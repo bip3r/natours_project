@@ -1,0 +1,22 @@
+{
+    "name": "natours_project",
+    "version": "1.0.0",
+    "description": "A natoure tourist guilde page.",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bip3r/natours_project.git"
+    },
+    "author": "Or Orsatti",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bip3r/natours_project/issues"
+    },
+    "homepage": "https://github.com/bip3r/natours_project#readme",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    }
+}
